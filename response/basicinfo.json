@@ -1,0 +1,44 @@
+{
+	"Country_List": [
+        {
+            "options": [
+                {
+                    "name": "India",
+                    "id": "1"
+                },
+                {
+                    "name": "Pakistan",
+                    "id": "2"
+                },
+				{
+                    "name": "fjhkidgfhdf",
+                    "id": "25"
+                }
+            ],
+            "selectedOption": {
+				"id":{"selected": ""}
+			}
+        }
+    ],
+	"City_List": [
+        {
+            "options": [
+                {
+                    "name": "Bangalore",
+                    "id": "1"
+                },
+                {
+                    "name": "Mysore",
+                    "id": "2"
+                },
+                {
+                    "name": "bHOPAL",
+                    "id": "8"
+                }
+            ],
+            "selectedOption": {
+				"id":{"selected": ""}
+			}
+        }
+    ]
+}

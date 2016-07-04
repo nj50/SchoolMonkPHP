@@ -1,0 +1,65 @@
+{
+	"BoardAffilation": [
+		{
+			"options": [
+				{
+					"id": 1,
+					"name": "CBSE"
+				},
+				{
+					"id": 2,
+					"name": "State Board"
+				},
+				{
+					"id": 3,
+					"name": "Other"
+				}
+			],
+			"selectedOption": {
+				"id":[]
+			}
+		}
+	],
+	"SchoolType": [
+		{
+			"options": [
+				{
+					"id": 1,
+					"name": "Play School"
+				},
+				{
+					"id": 2,
+					"name": "Main School"
+				},
+				{
+					"id": 3,
+					"name": "Prep School"
+				}
+			],
+			"selectedOption": {
+				"id":[]
+			}
+		}
+	],
+	"ClassOffered": [
+		{
+			"options": [
+				{
+					"id": 1,
+					"name": "Class 1"
+				},
+				{
+					"id": 2,
+					"name": "Class 2"
+				},
+				{
+					"id": 3,
+					"name": "Class 3"
+				}
+			],
+			"selectedOption": {
+				"id":[]
+			}
+		}
+	]
+}

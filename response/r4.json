@@ -1,0 +1,23 @@
+[
+    {
+        "Distance": "10",
+        "Applications": 50,
+        "Shortlisted": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    },
+	{
+        "Distance": "12-16",
+        "Applications": 50,
+        "Shortlisted": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    },
+	{
+        "Distance": "15-58",
+        "Applications": 50,
+        "Shortlisted": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    }   
+]

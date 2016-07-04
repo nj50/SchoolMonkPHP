@@ -1,0 +1,69 @@
+QuestionView = (function(_super) {
+	__extends(QuestionView, _super);
+
+	function QuestionView() {
+		_ref0 = QuestionView.__super__.constructor.apply(this, arguments);
+		return _ref0;
+	}
+	
+	QuestionView.prototype.className = "fb-field-wrapper";
+	
+	QuestionView.prototype.events = {
+			'click .js-save-form': 'saveForm',
+			'click .fb-tabs a': 'showTab',
+			'click .qa-add-field-types a': 'addField'
+		};
+		
+	QuestionView.prototype.initialize = function(options) {
+      var selector;
+      selector = options.selector, this.formBuilder = options.formBuilder, this.bootstrapData = options.bootstrapData;
+      if (selector != null) {
+        this.setElement($(selector));
+      }
+      this.collection = new FormbuilderCollection;
+      this.collection.bind('add', this.addOne, this);
+      this.collection.bind('reset', this.reset, this);
+      this.collection.bind('change', this.handleFormUpdate, this);
+      this.collection.bind('destroy add reset', this.hideShowNoResponseFields, this);
+      this.collection.bind('destroy', this.ensureEditViewScrolled, this);
+      this.render();
+      this.collection.reset(this.bootstrapData);
+      return this.bindSaveEvent();
+    };
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 BuilderView.prototype.createAndShowEditView = function(model) {
+      var $newEditEl, $responseFieldEl;
+      $responseFieldEl = this.$el.find(".fb-field-wrapper").filter(function() {
+        return $(this).data('cid') === model.cid;
+      });
+      $responseFieldEl.addClass('editing').siblings('.fb-field-wrapper').removeClass('editing');
+      if (this.editView) {
+        if (this.editView.model.cid === model.cid) {
+          this.$el.find(".fb-tabs a[data-target=\"#editField\"]").click();
+          this.scrollLeftWrapper($responseFieldEl);
+          return;
+        }
+        this.editView.remove();
+      }
+      this.editView = new EditFieldView({
+        model: model,
+        parentView: this
+      });
+      $newEditEl = this.editView.render().$el;
+      this.$el.find(".fb-edit-field-wrapper").html($newEditEl);
+      this.$el.find(".fb-tabs a[data-target=\"#editField\"]").click();
+      this.scrollLeftWrapper($responseFieldEl);
+      return this;
+    };

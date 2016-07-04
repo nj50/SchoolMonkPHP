@@ -1,0 +1,34 @@
+{
+    "WorkStatus": [
+        {
+            "Parent": "One Parent Working",
+            "Applications": 52,
+            "Shortlisted": 54,
+            "AdmissionOffered": 95,
+            "AdmissionAccepeted": 91
+        },
+        {
+            "Parent": "Both Working",
+            "Applications": 52,
+            "Shortlisted": 54,
+            "AdmissionOffered": 95,
+            "AdmissionAccepeted": 91
+        }
+    ],
+    "Income": [
+        {
+            "IncomeBracket": "0-89",
+            "Applications": 52,
+            "Shortlisted": 54,
+            "AdmissionOffered": 95,
+            "AdmissionAccepeted": 91
+        },
+        {
+            "IncomeBracket": "10-52",
+            "Applications": 52,
+            "Shortlisted": 54,
+            "AdmissionOffered": 95,
+            "AdmissionAccepeted": 91
+        }
+    ]
+}

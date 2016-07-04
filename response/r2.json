@@ -1,0 +1,24 @@
+[
+    {
+        "Grade": "class 1",
+        "Applications_cnt": 50,
+        "Shortlisted_cnt": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    },
+	{
+        "Grade": "class 2",
+        "Applications_cnt": 50,
+        "Shortlisted_cnt": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    },
+	{
+        "Grade": "class 10",
+        "Applications_cnt": 50,
+        "Shortlisted_cnt": 150,
+		"AdmissionOffered":53,
+		"AdmissionAccepeted":92
+    }   
+]
+

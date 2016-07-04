@@ -1,0 +1,44 @@
+{
+	"ApplicableClasses": [
+		{
+			"options": [
+				{
+					"id": 1,
+					"name": "Class 1"
+				},
+				{
+					"id": 2,
+					"name": "Class 2"
+				},
+				{
+					"id": 3,
+					"name": "Class 3"
+				}
+			],
+			"selectedOption": {
+				"id":[]
+			}
+		}
+	],
+	"Batch": [
+		{
+			"options": [
+				{
+					"id": 1,
+					"name": "2010-11"
+				},
+				{
+					"id": 2,
+					"name": "2011-12"
+				},
+				{
+					"id": 3,
+					"name": "2012-13"
+				}
+			],
+			"selectedOption": {
+				"id":[]
+			}
+		}
+	]
+}

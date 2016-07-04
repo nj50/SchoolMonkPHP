@@ -1,0 +1,60 @@
+<div class="col-lg-12">
+	<div class="panel panel-default" ng-controller="R3Ctrl">
+		<div class="panel-heading">
+			Report <span class='right fa fa-download fa-2x' style='cursor:pointer;margin:-4px 3px;'></span>
+		</div>
+		<div class="panel-body" style='padding:15px 0;'>
+			<div class="table-responsive">
+				<table ng-table="tableParams" class="table ng-table-responsive">
+					<tr ng-repeat="user in data.WorkStatus">
+						<td data-title="'Parents Work Status'">
+							{{user.Parent}}
+						</td>
+						<td data-title="'Applications'">
+							{{user.Applications}}
+						</td>
+						<td data-title="'Shortlisted'">
+							{{user.Shortlisted}}
+						</td>
+						<td data-title="'Admission Offered'">
+							{{user.AdmissionOffered}}
+						</td>
+						<td data-title="'Admission Accepeted'">
+							{{user.AdmissionAccepeted}}
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>	
+		
+		<div class="panel-heading">
+			Report <span class='right fa fa-download fa-2x' style='cursor:pointer;margin:-4px 3px;'></span>
+		</div>
+		<div class="panel-body" style='padding:15px 0;'>
+			<div class="table-responsive">
+				<table ng-table="tableParams" class="table ng-table-responsive">
+					<tr ng-repeat="user in data.Income">
+						<td data-title="'Income Bracket in Lacs'">
+							{{user.IncomeBracket}}
+						</td>
+						<td data-title="'Applications'">
+							{{user.Applications}}
+						</td>
+						<td data-title="'Shortlisted'">
+							{{user.Shortlisted}}
+						</td>
+						<td data-title="'Admission Offered'">
+							{{user.AdmissionOffered}}
+						</td>
+						<td data-title="'Admission Accepeted'">
+							{{user.AdmissionAccepeted}}
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+
+		
+	</div>
+</div>

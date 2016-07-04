@@ -1,0 +1,52 @@
+[
+    {
+        "stage": "Started Applcation",
+        "current_cnt": 50,
+        "total_cnt": 150
+    },
+    {
+        "stage": "Submitted (School Review)",
+        "current_cnt": 43,
+		"total_cnt": 143
+    },
+    {
+        "stage": "Shortlisted",
+        "current_cnt": 27,
+		"total_cnt": 130
+    },
+    {
+        "stage": "Interview Scheduled",
+        "current_cnt": 29,
+		"total_cnt": 260
+    },
+    {
+        "stage": "Appointment Confirmed (By Parents)",
+        "current_cnt": 34,
+		"total_cnt": 150
+    },
+    {
+        "stage": "Interview Over",
+        "current_cnt": 43,
+		"total_cnt": 150
+    },
+    {
+        "stage": "Admission Offered (By School)",
+        "current_cnt": 27,
+		"total_cnt": 0
+    },
+    {
+        "stage": "Admission Offer Accepted (By Parents)",
+        "current_cnt": 29,
+		"total_cnt": 0
+    },
+    {
+        "stage": "Application Rejected (By School)",
+        "current_cnt": 34,
+		"total_cnt": 50
+    },
+    {
+        "stage": "Waitlisted",
+        "current_cnt": 43,
+		"total_cnt": 80
+    }
+]

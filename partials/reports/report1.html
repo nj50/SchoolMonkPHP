@@ -1,0 +1,53 @@
+<div class="col-lg-12">
+	<div class="form-group">
+		<div class='row row-no-padding'>
+			<div class='col-lg-3 col-md-4'>
+				<label>Select Batch</label>
+				<select class="form-control">
+					<option>2010-11</option>
+					<option>2011-12</option>
+				</select>
+			</div>
+			<div class='col-lg-3 col-md-4'>
+				<label>Select Form</label>
+				<select class="form-control">
+					<option>Form 1</option>
+					<option>Form 2</option>
+				</select>
+			</div>
+			<div class='col-lg-3 col-md-4'>
+				<label>Select Class</label>
+				<select class="form-control">
+					<option>Class 1</option>
+					<option>Class 2</option>
+				</select>
+			</div>
+			<div class='col-lg-3 col-md-4'>
+				<label>&nbsp;</label>
+				<a href='javascript:void(0)' class='btn btn-primary btn-xs'>Get Result</a>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default" ng-controller="R1Ctrl">
+		<div class="panel-heading">
+			Report <span class='right fa fa-download fa-2x' style='cursor:pointer;margin:-4px 3px;'></span>
+		</div>
+		<div class="panel-body" style='padding:15px 0;'>
+			<div class="table-responsive">
+				<table ng-table="tableParams" class="table ng-table-responsive">
+					<tr ng-repeat="user in data">
+						<td data-title="'Stage of Admission Application'">
+							{{user.stage}}
+						</td>
+						<td data-title="'Current Count'">
+							{{user.current_cnt}}
+						</td>
+						<td data-title="'Total Count'">
+							{{user.total_cnt}}
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
